@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff1f5">
+  <title>A Little Letter ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-heart">♥</span> just for you</a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="memories.html">Her Gallery</a>
+      <a class="active" href="letter.html">A Letter</a>
+    </nav>
+  </header>
+
+  <main class="content-page letter-page">
+    <div class="page-heading">
+      <p class="eyebrow">sealed with a kiss ♡</p>
+      <h1>One little <em>letter.</em></h1>
+      <p>Tap the envelope. I saved something for you.</p>
+    </div>
+
+    <section class="letter-scene">
+      <button class="envelope" id="open-letter" type="button" aria-label="Open your letter" aria-expanded="false">
+        <span class="envelope-back"></span>
+        <span class="letter-paper">
+          <span class="letter-stamp">♡</span>
+          <span class="letter-preview">For you, my favorite person...</span>
+        </span>
+        <span class="envelope-front"></span>
+        <span class="envelope-flap"></span>
+        <span class="envelope-seal">♥</span>
+      </button>
+      <p class="tap-hint" id="tap-hint">tap to open your letter</p>
+
+      <article class="love-note" id="love-note" hidden>
+        <p class="note-date">A little note, just because ♡</p>
+        <h2>Dear you,</h2>
+        <p>I wanted to make you something small, but full of affection. I hope you never forget how special you are, how much your smile can brighten a day, and how lucky the world is to have you in it.</p>
+        <p>Thank you for being exactly who you are. Here's a little reminder that someone is thinking of you and wishing you all the happiness in the world.</p>
+        <p class="signature">With all my love, <span>♡</span></p>
+        <p class="edit-hint">P.S. You can replace this note with your own words in <strong>letter.html</strong>.</p>
+      </article>
+    </section>
+    <div class="back-link"><a href="index.html">← back to the beginning</a></div>
+  </main>
+  <footer class="site-footer">♡ made with a little extra love ♡</footer>
+</body>
+</html>
